@@ -18,6 +18,8 @@ services:
       - TESTLINK_DATABASE_USER=bn_testlink
       - TESTLINK_DATABASE_NAME=bitnami_testlink
       - ALLOW_EMPTY_PASSWORD=yes
+    expose:
+      - 80
     ports:
       - '80:80'
       - '443:443'
@@ -25,9 +27,17 @@ services:
       - 'testlink_data:/bitnami'
     depends_on:
       - mariadb
+  jenkins:
+    image: 'jenkinsci/blueocean:latest'
+    ports:
+      - '8081:8080'
+    volumes:
+      - 'jenkins-data:/var/jenkins_home'
 
 volumes:
   mariadb_data:
     driver: local
   testlink_data:
+    driver: local
+  jenkins-data:
     driver: local

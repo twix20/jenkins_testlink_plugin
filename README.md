@@ -9,7 +9,12 @@ API Key: e71ffdb42d75bfda8617aebaf6b11274
 
 
 JENKINS
-docker run --rm -u root -p 8081:8080 -p 80:80 -v jenkins-data:/var/jenkins_home jenkinsci/blueocean
+docker run --rm -d -u root -p 8081:8080 -v jenkins-data:/var/jenkins_home jenkinsci/blueocean
 
 admin
 admin
+
+
+
+
+docker exec sad_bhaskara echo "$(curl -s -I http://127.0.0.1:80/lib/api/xmlrpc/v1/xmlrpc.php)"

@@ -14,7 +14,4 @@ docker run --rm -d -u root -p 8081:8080 -v jenkins-data:/var/jenkins_home jenkin
 admin
 admin
 
-
-
-
-docker exec sad_bhaskara echo "$(curl -s -I http://127.0.0.1:80/lib/api/xmlrpc/v1/xmlrpc.php)"
+docker inspect <Testlink_container_id> | grep "IPAddress"

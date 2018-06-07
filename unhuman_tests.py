@@ -11,7 +11,7 @@ from selenium.webdriver.support import expected_conditions as EC
 class UnhumanSiteTests(unittest.TestCase):
     # def setUp(self):
     #     # create a new Firefox session
-    #     geckopath = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'geckodriver.exe')
+    #     geckopath = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'geckodriver')
     #     print(geckopath)
 
     #     self.driver = webdriver.Firefox(executable_path=geckopath)

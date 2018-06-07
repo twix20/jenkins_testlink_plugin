@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="UnhumanSiteTests-20180607225911" tests="7" time="49.843">
+	<testcase classname="UnhumanSiteTests" name="test_basket_balance_and_phone" time="7.805"/>
+	<testcase classname="UnhumanSiteTests" name="test_contact_info" time="7.357"/>
+	<testcase classname="UnhumanSiteTests" name="test_empty_search" time="8.599"/>
+	<testcase classname="UnhumanSiteTests" name="test_hoodie_128_visible_items" time="9.389"/>
+	<testcase classname="UnhumanSiteTests" name="test_sale_menu_color" time="7.631"/>
+	<testcase classname="UnhumanSiteTests" name="test_currency_changed" time="9.063">
+		<error message="Message: The element reference of &lt;strong&gt; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+" type="StaleElementReferenceException">
+<![CDATA[Traceback (most recent call last):
+  File ".\unhuman_tests.py", line 40, in test_currency_changed
+    self.assertNotEqual(balance_before.text, balance_after.text)
+  File "D:\Python36\lib\site-packages\selenium\webdriver\remote\webelement.py", line 76, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)['value']
+  File "D:\Python36\lib\site-packages\selenium\webdriver\remote\webelement.py", line 628, in _execute
+    return self._parent.execute(command, params)
+  File "D:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "D:\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: The element reference of <strong> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+
+]]>		</error>
+	</testcase>
+	<testcase classname="UnhumanSiteTests" name="test_skip" time="0.000">
+		<skipped message="Test skip" type="skip"/>
+	</testcase>
+	<system-out>
+<![CDATA[C:\Users\User\Desktop\Studia\DPP\lab_12_PMarkiewicz\geckodriver.exe
+C:\Users\User\Desktop\Studia\DPP\lab_12_PMarkiewicz\geckodriver.exe
+C:\Users\User\Desktop\Studia\DPP\lab_12_PMarkiewicz\geckodriver.exe
+C:\Users\User\Desktop\Studia\DPP\lab_12_PMarkiewicz\geckodriver.exe
+C:\Users\User\Desktop\Studia\DPP\lab_12_PMarkiewicz\geckodriver.exe
+C:\Users\User\Desktop\Studia\DPP\lab_12_PMarkiewicz\geckodriver.exe
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

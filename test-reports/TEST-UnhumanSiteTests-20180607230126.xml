@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="UnhumanSiteTests-20180607230126" tests="2" time="7.911">
+	<testcase classname="UnhumanSiteTests" name="test_currency_changed" time="7.911">
+		<error message="name 'menu_textnd_element_by_xpath' is not defined" type="NameError">
+<![CDATA[Traceback (most recent call last):
+  File ".\unhuman_tests.py", line 32, in test_currency_changed
+    balance_before = read_balance_with_currency()
+  File ".\unhuman_tests.py", line 29, in read_balance_with_currency
+    balance = menu_textnd_element_by_xpath('//a/strong')
+NameError: name 'menu_textnd_element_by_xpath' is not defined
+]]>		</error>
+	</testcase>
+	<testcase classname="UnhumanSiteTests" name="test_skip" time="0.000">
+		<skipped message="Test skip" type="skip"/>
+	</testcase>
+	<system-out>
+<![CDATA[C:\Users\User\Desktop\Studia\DPP\lab_12_PMarkiewicz\geckodriver.exe
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

@@ -7,8 +7,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from copy import *
-
 class UnhumanSiteTests(unittest.TestCase):
     def setUp(self):
         # create a new Firefox session

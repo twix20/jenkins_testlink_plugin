@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="UnhumanSiteTests-20180607230925" tests="2" time="9.136">
+	<testcase classname="UnhumanSiteTests" name="test_currency_changed" time="9.136"/>
+	<testcase classname="UnhumanSiteTests" name="test_skip" time="0.000">
+		<skipped message="Test skip" type="skip"/>
+	</testcase>
+	<system-out>
+<![CDATA[C:\Users\User\Desktop\Studia\DPP\lab_12_PMarkiewicz\geckodriver.exe
+2020594841888
+2020594842240
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

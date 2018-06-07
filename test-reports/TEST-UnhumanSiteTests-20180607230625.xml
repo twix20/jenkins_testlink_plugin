@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<testsuite errors="6" failures="0" name="UnhumanSiteTests-20180607230625" tests="7" time="0.015">
+	<testcase classname="UnhumanSiteTests" name="test_basket_balance_and_phone" time="0.007">
+		<error message="[WinError 193] %1 nie jest prawidłową aplikacją systemu Win32" type="OSError">
+<![CDATA[Traceback (most recent call last):
+  File ".\unhuman_tests.py", line 18, in setUp
+    self.driver = webdriver.Firefox(executable_path=geckopath)
+  File "D:\Python36\lib\site-packages\selenium\webdriver\firefox\webdriver.py", line 160, in __init__
+    self.service.start()
+  File "D:\Python36\lib\site-packages\selenium\webdriver\common\service.py", line 76, in start
+    stdin=PIPE)
+  File "D:\Python36\lib\subprocess.py", line 709, in __init__
+    restore_signals, start_new_session)
+  File "D:\Python36\lib\subprocess.py", line 997, in _execute_child
+    startupinfo)
+OSError: [WinError 193] %1 nie jest prawidłową aplikacją systemu Win32
+]]>		</error>
+	</testcase>
+	<testcase classname="UnhumanSiteTests" name="test_contact_info" time="0.002">
+		<error message="[WinError 193] %1 nie jest prawidłową aplikacją systemu Win32" type="OSError">
+<![CDATA[Traceback (most recent call last):
+  File ".\unhuman_tests.py", line 18, in setUp
+    self.driver = webdriver.Firefox(executable_path=geckopath)
+  File "D:\Python36\lib\site-packages\selenium\webdriver\firefox\webdriver.py", line 160, in __init__
+    self.service.start()
+  File "D:\Python36\lib\site-packages\selenium\webdriver\common\service.py", line 76, in start
+    stdin=PIPE)
+  File "D:\Python36\lib\subprocess.py", line 709, in __init__
+    restore_signals, start_new_session)
+  File "D:\Python36\lib\subprocess.py", line 997, in _execute_child
+    startupinfo)
+OSError: [WinError 193] %1 nie jest prawidłową aplikacją systemu Win32
+]]>		</error>
+	</testcase>
+	<testcase classname="UnhumanSiteTests" name="test_currency_changed" time="0.001">
+		<error message="[WinError 193] %1 nie jest prawidłową aplikacją systemu Win32" type="OSError">
+<![CDATA[Traceback (most recent call last):
+  File ".\unhuman_tests.py", line 18, in setUp
+    self.driver = webdriver.Firefox(executable_path=geckopath)
+  File "D:\Python36\lib\site-packages\selenium\webdriver\firefox\webdriver.py", line 160, in __init__
+    self.service.start()
+  File "D:\Python36\lib\site-packages\selenium\webdriver\common\service.py", line 76, in start
+    stdin=PIPE)
+  File "D:\Python36\lib\subprocess.py", line 709, in __init__
+    restore_signals, start_new_session)
+  File "D:\Python36\lib\subprocess.py", line 997, in _execute_child
+    startupinfo)
+OSError: [WinError 193] %1 nie jest prawidłową aplikacją systemu Win32
+]]>		</error>
+	</testcase>
+	<testcase classname="UnhumanSiteTests" name="test_empty_search" time="0.002">
+		<error message="[WinError 193] %1 nie jest prawidłową aplikacją systemu Win32" type="OSError">
+<![CDATA[Traceback (most recent call last):
+  File ".\unhuman_tests.py", line 18, in setUp
+    self.driver = webdriver.Firefox(executable_path=geckopath)
+  File "D:\Python36\lib\site-packages\selenium\webdriver\firefox\webdriver.py", line 160, in __init__
+    self.service.start()
+  File "D:\Python36\lib\site-packages\selenium\webdriver\common\service.py", line 76, in start
+    stdin=PIPE)
+  File "D:\Python36\lib\subprocess.py", line 709, in __init__
+    restore_signals, start_new_session)
+  File "D:\Python36\lib\subprocess.py", line 997, in _execute_child
+    startupinfo)
+OSError: [WinError 193] %1 nie jest prawidłową aplikacją systemu Win32
+]]>		</error>
+	</testcase>
+	<testcase classname="UnhumanSiteTests" name="test_hoodie_128_visible_items" time="0.001">
+		<error message="[WinError 193] %1 nie jest prawidłową aplikacją systemu Win32" type="OSError">
+<![CDATA[Traceback (most recent call last):
+  File ".\unhuman_tests.py", line 18, in setUp
+    self.driver = webdriver.Firefox(executable_path=geckopath)
+  File "D:\Python36\lib\site-packages\selenium\webdriver\firefox\webdriver.py", line 160, in __init__
+    self.service.start()
+  File "D:\Python36\lib\site-packages\selenium\webdriver\common\service.py", line 76, in start
+    stdin=PIPE)
+  File "D:\Python36\lib\subprocess.py", line 709, in __init__
+    restore_signals, start_new_session)
+  File "D:\Python36\lib\subprocess.py", line 997, in _execute_child
+    startupinfo)
+OSError: [WinError 193] %1 nie jest prawidłową aplikacją systemu Win32
+]]>		</error>
+	</testcase>
+	<testcase classname="UnhumanSiteTests" name="test_sale_menu_color" time="0.002">
+		<error message="[WinError 193] %1 nie jest prawidłową aplikacją systemu Win32" type="OSError">
+<![CDATA[Traceback (most recent call last):
+  File ".\unhuman_tests.py", line 18, in setUp
+    self.driver = webdriver.Firefox(executable_path=geckopath)
+  File "D:\Python36\lib\site-packages\selenium\webdriver\firefox\webdriver.py", line 160, in __init__
+    self.service.start()
+  File "D:\Python36\lib\site-packages\selenium\webdriver\common\service.py", line 76, in start
+    stdin=PIPE)
+  File "D:\Python36\lib\subprocess.py", line 709, in __init__
+    restore_signals, start_new_session)
+  File "D:\Python36\lib\subprocess.py", line 997, in _execute_child
+    startupinfo)
+OSError: [WinError 193] %1 nie jest prawidłową aplikacją systemu Win32
+]]>		</error>
+	</testcase>
+	<testcase classname="UnhumanSiteTests" name="test_skip" time="0.000">
+		<skipped message="Test skip" type="skip"/>
+	</testcase>
+	<system-out>
+<![CDATA[C:\Users\User\Desktop\Studia\DPP\lab_12_PMarkiewicz\geckodriver
+C:\Users\User\Desktop\Studia\DPP\lab_12_PMarkiewicz\geckodriver
+C:\Users\User\Desktop\Studia\DPP\lab_12_PMarkiewicz\geckodriver
+C:\Users\User\Desktop\Studia\DPP\lab_12_PMarkiewicz\geckodriver
+C:\Users\User\Desktop\Studia\DPP\lab_12_PMarkiewicz\geckodriver
+C:\Users\User\Desktop\Studia\DPP\lab_12_PMarkiewicz\geckodriver
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

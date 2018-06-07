@@ -24,6 +24,15 @@ class UnhumanSiteTests(unittest.TestCase):
     def test_a(self):
         self.assertTrue(True)
 
+    def test_b(self):
+        self.assertTrue(True)
+
+    def test_c(self):
+        self.assertTrue(True)
+
+    def test_d(self):
+        self.assertTrue(True)
+
     # def test_currency_changed(self):
     #     """
     #         Currency change should change basket's balance currency symbol

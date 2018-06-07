@@ -7,10 +7,12 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+from copy import *
+
 class UnhumanSiteTests(unittest.TestCase):
     def setUp(self):
         # create a new Firefox session
-        geckopath = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'geckodriver')
+        geckopath = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'geckodriver.exe')
         print(geckopath)
 
         self.driver = webdriver.Firefox(executable_path=geckopath)
@@ -18,6 +20,25 @@ class UnhumanSiteTests(unittest.TestCase):
         self.driver.maximize_window()
 
         self.driver.get('https://unhuman.pl/')
+
+    def test_currency_changed(self):	
+        """	
+            Currency change should change basket's balance currency symbol	
+        """	
+        def read_balance_with_currency():	
+            menu_basket = self.driver.find_element_by_id('menu_basket')	
+            balance = menu_basket.find_element_by_xpath('//a/strong')	
+            return deepcopy(balance.text)	
+
+        balance_before = read_balance_with_currency()	
+        #change currency	
+        self.driver.get(self.driver.current_url + 'settings.php?curr=EUR')	
+        #wait until page reloads	
+        myElem = WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.ID, 'menu_basket')))	
+
+        balance_after = read_balance_with_currency()	
+
+        self.assertNotEqual(balance_before, balance_after)
 
     def test_empty_search(self):
         """

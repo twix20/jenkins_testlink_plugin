@@ -7,6 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+from copy import *
 
 class UnhumanSiteTests(unittest.TestCase):
     def setUp(self):
@@ -27,7 +28,7 @@ class UnhumanSiteTests(unittest.TestCase):
         def read_balance_with_currency():
             menu_basket = self.driver.find_element_by_id('menu_basket')
             balance = menu_basket.find_element_by_xpath('//a/strong')
-            return balance.text
+            return deepcopy(balance.text)
 
         balance_before = read_balance_with_currency()
         #change currency

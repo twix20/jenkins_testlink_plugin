@@ -9,4 +9,8 @@ JENKINS
 admin
 admin
 
+additional plugins:
+- Testlink
+- Cobertura
+
 docker inspect <Testlink_container_id> | grep "IPAddress"

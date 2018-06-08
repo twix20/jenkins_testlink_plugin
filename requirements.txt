@@ -1,0 +1,4 @@
+coverage
+xmlrunner
+selenium
+unittest-xml-reporting

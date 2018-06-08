@@ -22,7 +22,6 @@ class UnhumanSiteTests(unittest.TestCase):
         self.driver.get('https://unhuman.pl/')
 
     def test_currency_changed(self):
-        raise NotImplementedError
         """	
             Currency change should change basket's balance currency symbol	
         """	

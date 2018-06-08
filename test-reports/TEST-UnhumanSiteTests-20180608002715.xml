@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="UnhumanSiteTests-20180608002715" tests="7" time="50.300">
+	<testcase classname="UnhumanSiteTests" name="test_basket_balance_and_phone" time="7.951"/>
+	<testcase classname="UnhumanSiteTests" name="test_contact_info" time="8.216"/>
+	<testcase classname="UnhumanSiteTests" name="test_currency_changed" time="9.286"/>
+	<testcase classname="UnhumanSiteTests" name="test_empty_search" time="8.402"/>
+	<testcase classname="UnhumanSiteTests" name="test_hoodie_128_visible_items" time="8.713"/>
+	<testcase classname="UnhumanSiteTests" name="test_sale_menu_color" time="7.731"/>
+	<testcase classname="UnhumanSiteTests" name="test_skip" time="0.000">
+		<skipped message="Test skip" type="skip"/>
+	</testcase>
+	<system-out>
+<![CDATA[C:\Users\User\Desktop\Studia\DPP\lab_12_PMarkiewicz\geckodriver.exe
+C:\Users\User\Desktop\Studia\DPP\lab_12_PMarkiewicz\geckodriver.exe
+C:\Users\User\Desktop\Studia\DPP\lab_12_PMarkiewicz\geckodriver.exe
+C:\Users\User\Desktop\Studia\DPP\lab_12_PMarkiewicz\geckodriver.exe
+C:\Users\User\Desktop\Studia\DPP\lab_12_PMarkiewicz\geckodriver.exe
+C:\Users\User\Desktop\Studia\DPP\lab_12_PMarkiewicz\geckodriver.exe
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

@@ -12,7 +12,7 @@ from copy import *
 class UnhumanSiteTests(unittest.TestCase):
     def setUp(self):
         # create a new Firefox session
-        geckopath = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'geckodriver')
+        geckopath = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'geckodriver.exe')
         print(geckopath)
 
         self.driver = webdriver.Firefox(executable_path=geckopath)
@@ -21,7 +21,8 @@ class UnhumanSiteTests(unittest.TestCase):
 
         self.driver.get('https://unhuman.pl/')
 
-    def test_currency_changed(self):	
+    def test_currency_changed(self):
+        raise NotImplementedError
         """	
             Currency change should change basket's balance currency symbol	
         """	

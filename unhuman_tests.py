@@ -105,13 +105,6 @@ class UnhumanSiteTests(unittest.TestCase):
         self.assertTrue('0,00 z' in balance.text)
         self.assertIsNotNone(phone)
 
-    @unittest.skip("Test skip")
-    def test_skip(self):
-        """
-            Always skiped test
-        """
-        raise NotImplementedError
-
     def tearDown(self):
         # close the browser window
         self.driver.quit()

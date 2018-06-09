@@ -83,7 +83,6 @@ class UnhumanSiteTests(unittest.TestCase):
         """
         phone_href = self.driver.find_element_by_xpath('//*[@id="top_contact"]/a[1]').get_attribute('href')
         mail_href = self.driver.find_element_by_xpath('//*[@id="top_contact"]/a[2]').get_attribute('href')
-        raise Exception('spam')
         self.assertEqual(phone_href, 'tel:616460023')
         self.assertEqual(mail_href, 'mailto:sklep@unhuman.pl')
 

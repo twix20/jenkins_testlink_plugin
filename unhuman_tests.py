@@ -103,6 +103,10 @@ class UnhumanSiteTests(unittest.TestCase):
 
         self.assertTrue('0,00 z' in balance.text)
         self.assertIsNotNone(phone)
+        
+    @unittest.skip("demonstrating skipping")
+    def test_nothing(self):
+        self.fail("shouldn't happen")
 
     def tearDown(self):
         # close the browser window

@@ -12,10 +12,7 @@ from copy import *
 class UnhumanSiteTests(unittest.TestCase):
     def setUp(self):
         # create a new Firefox session
-        geckopath = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'geckodriver')
-        print(geckopath)
-
-        self.driver = webdriver.Firefox(executable_path=geckopath)
+        self.driver = webdriver.Firefox()
         self.driver.implicitly_wait(30)
         self.driver.maximize_window()
 
